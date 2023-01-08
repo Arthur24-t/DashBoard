@@ -1,0 +1,12 @@
+.entete{
+    width: 100%;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.admin{
+    float: right;
+    margin-right: 5%;
+    margin-top: 1%;
+}

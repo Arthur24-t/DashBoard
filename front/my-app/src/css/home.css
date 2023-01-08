@@ -1,0 +1,28 @@
+.navbars{
+    display: flex;
+    flex-direction: row;
+}
+
+.invisible{
+    display: none;
+}
+
+.home{
+    background-color: rgba(30,36,49,255);
+    display: flex;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards div{
+    margin: 1%;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}

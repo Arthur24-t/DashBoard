@@ -1,0 +1,45 @@
+.adminn{
+    justify-content: center;
+    width: 100%;
+    margin-top: 5em;
+    margin-bottom: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+}
+
+.adminbtn{
+    margin-top: 3em;
+    margin-bottom: 3em;
+    border-radius: 1em;
+    font-style: oblique;
+    cursor: pointer;
+    background-color: rgb(32, 177, 255);
+}
+
+.emaill{
+    margin-top: 5em;
+    margin-bottom: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique; 
+}
+
+.emailinput{
+    border: none;
+    background-color: rgb(229, 226, 226);
+    height: 4em;
+    border-radius: 00.25em;
+    text-align: center;
+    padding: 2em;
+    margin: 2em;
+}
+
+.passwordinput{
+    border: none;
+    background-color: rgb(229, 226, 226);
+    height: 4em;
+    border-radius: 00.25em;
+    text-align: center;
+    padding: 2em;
+    margin-bottom: 2em;
+    margin: 2em;
+}

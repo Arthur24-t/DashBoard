@@ -1,0 +1,155 @@
+.navbarService{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 150px;
+    background-color: rgba(25, 33, 49, 0.5);
+    color: white;
+    text-align: center;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+    background-color: #1cd460;
+    border-radius: 20px;
+}
+
+.widgets{
+    margin-top: 30vh;
+    color: white;
+}
+
+.widgets span{
+    width: 100%;
+}
+
+.retour{
+    margin-top: 40%;
+}
+
+.retour:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.navbarService div label {
+    cursor: pointer;
+    user-select: none;
+}
+
+.navbarService input[type="checkbox"]{
+    display:none;
+}
+
+.navbarService div label span {
+    position: relative;
+    display: inline-block;
+    margin-top: 10%;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: .5s;
+    overflow: hidden;
+    font-size: 20px;
+    text-shadow: 0 1px 4px rgba(0,0,0,.5);
+    transition: 0.4s;
+}
+
+.navbarService div label span:hover {
+    transform: scale(1.05);
+}
+
+.navbarService div label span:before{
+    content: '';
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.navbarService div label span[id="LoveMeter"]{
+    background: purple;
+    color: fuchsia;
+}
+
+.navbarService div label input[id="inputLoveMeter"]:checked ~ span{
+    background-color: fuchsia;
+    color: purple;
+}
+
+.navbarService div label span[id="Spotify"]{
+    background: black;
+    color: #1cd460;
+}
+
+.navbarService div label input[id="inputSpotifySearch"]:checked ~ span{
+    background-color: #1cd460;
+    color: black;
+}
+
+.navbarService div label input[id="inputSpotifyPlay"]:checked ~ span{
+    background-color: #1cd460;
+    color: black;
+}
+
+.navbarService div label span[id="Pokemon"]{
+    background: darkblue;
+    color: yellow;
+}
+
+
+.navbarService div label input[id="inputPokemonRandom"]:checked ~ span{
+    background-color: yellow;
+    color: darkblue;
+}
+
+.navbarService div label input[id="inputPokemonEvolution"]:checked ~ span{
+    background-color: yellow;
+    color: darkblue;
+}
+
+.navbarService div label input[id="inputPokemon"]:checked ~ span{
+    background-color: yellow;
+    color: darkblue;
+}
+
+.navbarService div label span[id="Meteo"]{
+    background: aqua;
+    color: yellow;
+}
+
+
+.navbarService div label input[id="inputMeteo"]:checked ~ span{
+    background-color: yellow;
+    color: aqua;
+}
+
+.navbarService div label span[id="Discord"]{
+    background: darkblue;
+    color: lightgray;
+}
+
+
+.navbarService div label input[id="inputDiscord"]:checked ~ span{
+    background-color: lightgray;
+    color: darkblue;
+}
+
+.navbarService div label span[id="Chuck"]{
+    background: brown;
+    color: beige;
+}
+
+
+.navbarService div label input[id="inputChuck"]:checked ~ span{
+    background-color: beige;
+    color: brown;
+}
+
+

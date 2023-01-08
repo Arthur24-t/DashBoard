@@ -1,0 +1,44 @@
+.navbar{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 6vw;
+    background-color: rgba(26,32,44,255);
+    align-items: center;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+    margin: auto;
+}
+
+.PAT{
+    margin-top: 50%;
+}
+
+.services{
+    margin: auto;
+}
+
+.service{
+    margin-top: 10%;
+    height: 65px;
+    width: 65px;
+    border-radius: 5px;
+}
+
+.service:hover, .logout:hover, .profile:hover{
+    background-color: rgb(31 41 55);
+    cursor: pointer;
+}
+
+.log{
+    margin-bottom: 10%;
+}
+
+.st0{fill:#FFFFFF;}
+.st1{fill:#DFDFDF;}
+.st2{fill:#FF1C1C;}
+.st3{fill:#DF1818;}
+
